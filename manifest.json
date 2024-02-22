@@ -13,10 +13,10 @@
             "default": "dynorun",
             "strips": {
                "ripple": {
-                  "height": 120,
                   "name": "DynoRun",
                   "path": "strip/index.html",
-                  "width": 940
+                  "height": 150,
+                  "width": 900
                }
             }
          }
