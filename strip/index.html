@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta charset="utf-8"/>
+        <!-- Set the background colour of the document -->
+        <style>
+            body {
+              background: #0;
+              color:#000000;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+            }
+            canvas {
+                      image-rendering: optimizeSpeed;
+                      -webkit-interpolation-mode: nearest-neighbor;
+                      -ms-touch-action: none;
+                      margin: 0px;
+                      padding: 0px;
+                      border: 0px;
+                      display: block;                      
+            }
+            :-webkit-full-screen #canvas {
+                 width: 100%;
+                 height: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <canvas id="canvas" width="940" height="120" >
+                 <p>Your browser doesn't support HTML5 canvas.</p>
+        </canvas>
+        <!-- Run the game code -->
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>

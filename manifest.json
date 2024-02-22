@@ -1,0 +1,29 @@
+{
+   "description": "Creates colorfull circles wherever is clicked. \nMade on clean JS for testing purposes LUL",
+   "developer": {
+      "name": "Eclassic32"
+   },
+   "icons": {
+      "128": "icon.png"
+   },
+   "manifest_version": 3,
+   "mod": {
+      "payload": {
+         "game_strips": {
+            "default": "ripple",
+            "strips": {
+               "ripple": {
+                  "height": 120,
+                  "name": "Colorfull Circles",
+                  "path": "strip/index.html",
+                  "width": 940
+               }
+            }
+         }
+      },
+      "schema_version": 1
+   },
+   "name": "Colorfull Circles",
+   "update_url": "https://api.gx.me/store/mods/update",
+   "version": "1.0"
+}
