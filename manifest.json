@@ -1,5 +1,5 @@
 {
-   "description": "Creates colorfull circles wherever is clicked. \nMade on clean JS for testing purposes LUL",
+   "description": "Port of T-Rex game from Chrome!",
    "developer": {
       "name": "Eclassic32"
    },
@@ -10,11 +10,11 @@
    "mod": {
       "payload": {
          "game_strips": {
-            "default": "ripple",
+            "default": "dynorun",
             "strips": {
                "ripple": {
                   "height": 120,
-                  "name": "Colorfull Circles",
+                  "name": "DynoRun",
                   "path": "strip/index.html",
                   "width": 940
                }
